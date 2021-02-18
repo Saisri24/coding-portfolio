@@ -1,0 +1,56 @@
+.header {
+	color:purple;
+	text-align: center;
+	padding: 200px;
+	font-size: 30px;
+	background-color: pink;
+}
+.body {
+	color:black;
+	text-align:center;
+	background-color:pink;
+}
+.img1 {
+	background-color: yellow;
+	padding: 100px;
+	position: relative;
+}
+.img1 button {
+	position:absolute;
+	top:80%;
+	left:45%;
+}
+.img1 p {
+	font-size: 30px;
+	position:absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity:0;
+
+}
+.img1:hover p{
+	opacity:1;
+}
+.img2 {
+	background-color: lightblue;
+	padding: 100px;
+	position:relative;
+}
+.img2 p{
+	font-size: 30px;
+	position:absolute;
+	top:5%;
+	left:35%;
+	transform: translated(-50%, -50%);
+	opacity:0;
+}
+.img2:hover p{
+	opacity:1;
+}
+.imgs {
+	text-align:center;
+	display:flex;
+	justify-content: space-around;
+	align-self: auto;
+}
